@@ -1,0 +1,46 @@
+{
+  "name": "starter",
+  "description": "starter",
+  "version": "0.0.1",
+  "author": "Anu Dhagat",
+  "ava": {
+    "verbose": "true"
+  },
+  "dependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-latest": "^6.14.0",
+    "image-webpack-loader": "^2.0.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "2.1.0-beta.19"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "ava": "^0.16.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "html-loader": "^0.4.4",
+    "inline-manifest-webpack-plugin": "^3.0.1",
+    "node-sass": "^4.3.0",
+    "postcss-loader": "^1.2.2",
+    "reshape-content": "^0.2.0",
+    "reshape-include": "^0.2.0",
+    "reshape-layouts": "^0.2.1",
+    "reshape-loader": "^0.4.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-md5-hash": "0.0.5"
+  },
+  "homepage": "https://github.com/Anu Dhagat/website",
+  "main": "app.js",
+  "private": "true",
+  "repository": "https://github.com/Anu Dhagat/website",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "npm run build",
+    "build": "webpack --config webpack.dev.config.js",
+    "prod": "webpack -p --config webpack.config.js",
+    "test": "NODE_ENV=test ava"
+  }
+}
