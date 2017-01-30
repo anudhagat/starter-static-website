@@ -15,7 +15,7 @@ const config = {
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'js/[name].[chunkhash].js',
-    chunkFileName: 'js/[name].[chunkhash].js'
+    chunkFilename: 'js/[name].[chunkhash].js'
   },
   plugins: [
     new ExtractTextPlugin('css/style.[contenthash].css'),
@@ -36,7 +36,7 @@ const config = {
     loaders: [
       {
         test: /\.js$/,
-        loader: 'babel',
+        loader: 'babel-loader',
         include: path.join(__dirname, 'app'),
         exclude: /node_modules$/,
         query: {
@@ -45,12 +45,14 @@ const config = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
+        exclude: /node_modules$/,
         loader: 'image-webpack'
       },
       {
         test: /\.scss$/,
+        exclude: /node_modules$/,
         loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style',
+          fallbackLoader: 'style-loader',
           loader: ['css-loader', 'postcss-loader', 'sass-loader']
         })
       }
