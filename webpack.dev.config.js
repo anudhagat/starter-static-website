@@ -3,6 +3,8 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
+const layouts = require('reshape-layouts');
+const include = require('reshape-include');
 
 const config = {
   devtool: 'source-map',
@@ -50,10 +52,26 @@ const config = {
       chunks: ['vendor', 'main'],
       hash: false
     }),
-    new webpack.optimize.OccurrenceOrderPlugin()
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.LoaderOptionsPlugin({
+      test: /\.html$/,
+      options: {
+        reshape: {
+          plugins:
+          [
+            layouts(),
+            include()
+          ]
+        }
+      }
+    })
   ],
   module: {
     loaders: [
+      {
+        test: /\.html$/,
+        loader: ['reshape-loader']
+      },
       {
         test: /\.js$/,
         loader: 'babel-loader',

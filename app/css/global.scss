@@ -1,8 +1,17 @@
 body {
   font-size: 17px;
   h1 {
-    color: red;
+    color: #ccc;
   }
+}
+
+#topnav {
+  padding: 20px;
+}
+
+footer {
+  background-color: #ddd;
+  height: 150px;
 }
 
 .example {

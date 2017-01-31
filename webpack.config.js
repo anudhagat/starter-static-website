@@ -7,6 +7,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 const WebpackMd5Hash = require('webpack-md5-hash');
+const layouts = require('reshape-layouts');
+const include = require('reshape-include');
 
 const config = {
   devtool: false,
@@ -33,7 +35,11 @@ const config = {
       template: path.join(__dirname, 'app/views', 'index.html'),
       chunks: ['vendor', 'main'],
       hash: false,
-      cache: true
+      cache: true,
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true
+      }
     }),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'app/views', 'features.html'),
@@ -64,16 +70,25 @@ const config = {
       cache: true
     }),
     new WebpackMd5Hash(),
-    new webpack.optimize.OccurrenceOrderPlugin()
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.LoaderOptionsPlugin({
+      test: /\.html$/,
+      options: {
+        reshape: {
+          plugins:
+          [
+            layouts(),
+            include()
+          ]
+        }
+      }
+    })
   ],
   module: {
     loaders: [
       {
         test: /\.html$/,
-        loader: 'html-loader',
-        query: {
-          minimize: true
-        }
+        loader: 'reshape-loader'
       },
       {
         test: /\.js$/,

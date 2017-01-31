@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge, chrome=1'>
+    <meta name='description' content=''>
+    <meta name='author' content='Anu Dhagat'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Title of Your Site</title>
+  </head>
+
+  <body role='document'>
+    <include src='./app/views/_menu.html'></include>
+    <div class="content container-fluid">
+      <block name="content"></block>
+    </div>
+    <footer class="container-fluid">
+      <block name="footer">footer content</block>
+    </footer>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
