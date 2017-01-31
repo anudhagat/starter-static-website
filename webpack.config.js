@@ -6,20 +6,22 @@ const OccurrenceOrderPlugin = webpack.optimize.OccurrenceOrderPlugin;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
+const WebpackMd5Hash = require('webpack-md5-hash');
 
 const config = {
   devtool: false,
   context: path.join(__dirname, 'app'),
   entry: {
     main: './js/main.js',
-    vendor: './js/vendor/bootstrap.js'
+    vendor: './js/vendor/vendor.js'
   },
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'js/[name].js'
+    filename: 'js/[name].[chunkhash].js',
+    chunkFilename: 'js/[name].[chunkhash].js'
   },
   plugins: [
-    new ExtractTextPlugin('css/style.[contenthash].css'),
+    new ExtractTextPlugin('css/[name].[contenthash].css'),
     new CommonsChunkPlugin({
       name: 'vendor',
       minChunks: Infinity
@@ -32,13 +34,50 @@ const config = {
       chunks: ['vendor', 'main'],
       hash: false,
       cache: true
-    })
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'app/views', 'features.html'),
+      filename: 'features/index.html',
+      chunks: ['vendor', 'main'],
+      hash: false,
+      cache: true
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'app/views', 'order.html'),
+      filename: 'order/index.html',
+      chunks: ['vendor', 'main'],
+      hash: false,
+      cache: true
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'app/views', 'support.html'),
+      filename: 'support/index.html',
+      chunks: ['vendor', 'main'],
+      hash: false,
+      cache: true
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'app/views', 'about.html'),
+      filename: 'about/index.html',
+      chunks: ['vendor', 'main'],
+      hash: false,
+      cache: true
+    }),
+    new WebpackMd5Hash(),
+    new webpack.optimize.OccurrenceOrderPlugin()
   ],
   module: {
     loaders: [
       {
+        test: /\.html$/,
+        loader: 'html-loader',
+        query: {
+          minimize: true
+        }
+      },
+      {
         test: /\.js$/,
-        loader: 'babel',
+        loader: 'babel-loader',
         include: path.join(__dirname, 'app'),
         exclude: /node_modules$/,
         query: {
@@ -47,13 +86,23 @@ const config = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
+        exclude: /node_modules$/,
         loader: 'image-webpack'
       },
       {
         test: /\.scss$/,
+        exclude: /node_modules$/,
         loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style',
+          fallbackLoader: 'style-loader',
           loader: ['css-loader', 'postcss-loader', 'sass-loader']
+        })
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules$/,
+        loader: ExtractTextPlugin.extract({
+          fallbackLoader: 'style-loader',
+          loader: ['css-loader', 'postcss-loader']
         })
       }
     ]
