@@ -2,12 +2,14 @@
 This kit uses npm for dependency management. It also uses a simple express server to display all html files during development.
 
 ## Installation
-Git clone this repository and do an npm install.
-```git clone https://github.com/anudhagat/starter-static-website.git
+Git clone this repository and do an npm install. 
 ```
-Do an ```npm install``` in this cloned repository.
-For development, do ```npm run build``` to build all files into the public folder.
-To run the express server, type ```npm run start```.
+git clone https://github.com/anudhagat/starter-static-website.git
+```
+
+Do an npm install in this cloned repository.
+For development, do npm run build to build all files into the public folder.
+To run the express server, type npm run start.
 
 ## Development
 
