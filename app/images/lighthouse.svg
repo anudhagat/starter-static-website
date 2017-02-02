@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="464px" height="475px" viewBox="0 0 464 475" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>B48B3D52-CD1B-451A-A745-6276E0188DD9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="-2.48949813e-15%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFAB" stop-opacity="0.670487998" offset="0%"></stop>
+            <stop stop-color="#FFEF72" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="15.1803805 0 76.5849653 0 92.2647108 211.971254 0.110068003 211.971254"></polygon>
+        <rect id="path-4" x="0.19818637" y="0.100299311" width="60.6208044" height="47.180153"></rect>
+        <polygon id="path-6" points="5.43744602 51.3191917 42.7805818 26.4133579 80.1237195 51.3191917 80.1237195 64.5881397 5.43744602 64.5881397"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="-16" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-8" points="5.6267012 51.5689369 42.7273904 51.5689369 80.3129747 51.5689369 80.3129747 64.8378849 5.6267012 64.8378849"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="-16" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-10" x="41.5231302" y="0.585993817" width="2.51490515" height="26.8022041" rx="1.25745257"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="-3" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-12" x="87.8759354" y="100.44239" width="97.6549968" height="9.50832707" rx="4.75416354"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="-16" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-14" x="0" y="0" width="21.3766938" height="33.9600316" rx="10.6883469"></rect>
+    </defs>
+    <g id="💻-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lighthouse-website__product" transform="translate(-106.000000, -121.000000)">
+            <g id="lighthouse" transform="translate(106.000000, 120.000000)">
+                <g id="Group-14">
+                    <g id="aura" transform="translate(57.975424, 0.259661)" opacity="0.049999997">
+                        <ellipse fill="#FFCD72" cx="176.920373" cy="177.567538" rx="176.672087" ry="176.717942"></ellipse>
+                        <ellipse fill="#FFF072" cx="176.291646" cy="176.938649" rx="105.276504" ry="105.303829"></ellipse>
+                    </g>
+                    <polygon id="rays" fill="url(#linearGradient-1)" opacity="0.5" points="3.86535232e-13 119.818906 213.766938 172.554328 213.766938 189.295732 213.766938 206.874206 3.86535232e-13 258.772557"></polygon>
+                    <polygon id="rays" fill="url(#linearGradient-1)" opacity="0.5" transform="translate(357.116531, 188.965826) scale(-1, 1) translate(-357.116531, -188.965826) " points="250.233062 119.489 464 172.224422 464 188.965826 464 206.5443 250.233062 258.442652"></polygon>
+                </g>
+                <g id="Group-3" transform="translate(98.317543, 107.571022)">
+                    <g id="Group-11" transform="translate(74.150479, 316.201786) rotate(-10.000000) translate(-74.150479, -316.201786) translate(33.784178, 294.094834)" fill="#443642">
+                        <path d="M80.5736919,43.414451 C80.5736919,19.4896236 62.6990549,0.094718905 40.6495726,0.094718905 C18.6000904,0.094718905 0.725453408,19.4896236 0.725453408,43.414451 C26.1285479,43.414451 40.6495726,43.414451 80.5736919,43.414451 Z" id="land"></path>
+                    </g>
+                    <g id="roof" transform="translate(0.525090, 0.410713)">
+                        <path d="M255.262873,367.271453 C255.262873,326.286977 203.750139,293.062495 140.205962,293.062495 C76.661785,293.062495 25.1490515,326.286977 25.1490515,367.271453 C98.3579694,367.271453 140.205962,367.271453 255.262873,367.271453 Z" id="land" fill="#4C3C4A"></path>
+                        <path d="M85.5067751,367.271453 C85.5067751,345.542734 66.3654315,327.928127 42.7533875,327.928127 C19.1413436,327.928127 0,345.542734 0,367.271453 C27.2033138,367.271453 42.7533875,367.271453 85.5067751,367.271453 Z" id="rock" fill="#4D3C4A"></path>
+                        <g id="tower-body" transform="translate(90.768193, 105.436799)">
+                            <g id="Group-13">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="tower-body" fill="#FEFEFE" xlink:href="#path-2"></use>
+                                <path d="M6.82401237,84.9680917 L83.9892287,56.8613145 L86.7699572,105.579728 L4.7384664,138.370968 L6.82401237,84.9680917 Z M-0.822990604,212.385479 L1.26255577,184.278705 L89.5506857,152.424357 L92.7057153,212.385479 L-0.822990604,212.385479 Z M11.6902872,4.07194817 L81.9036833,4.07194817 L81.9036833,13.7642558 L9.60474128,39.0603561 L11.6902872,4.07194817 Z" id="tower-body--alt" fill="#FF684A" mask="url(#mask-3)" transform="translate(45.941362, 108.228713) scale(-1, 1) translate(-45.941362, -108.228713) "></path>
+                                <polygon id="Path-3" fill-opacity="0.0900000036" fill="#000000" mask="url(#mask-3)" points="19.4085879 5.00884074 65.3987515 15.314659 70.304369 215.80967 95.3347906 215.80967 77.0495929 -3.42319242"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-2" transform="translate(105.580901, 53.676983)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <use id="beacon-section" fill="#FFCD72" xlink:href="#path-4"></use>
+                            <polygon id="Path-3" fill-opacity="0.0900000036" fill="#000000" mask="url(#mask-5)" points="0.19818637 12.0491993 53.1913424 18.9669835 53.1913432 47.1635112 62.9177444 47.1635112 66.6162752 6.38919405"></polygon>
+                        </g>
+                        <path d="M121.644869,367.623631 C121.644869,354.92539 110.458687,344.631432 96.6598327,344.631432 C82.8609784,344.631432 71.6747967,354.92539 71.6747967,367.623631 C87.5723855,367.623631 96.6598327,367.623631 121.644869,367.623631 Z" id="rock" fill="#574454"></path>
+                        <path d="M275.054083,367.623631 C275.054083,354.92539 263.867901,344.631432 250.069047,344.631432 C236.270192,344.631432 225.084011,354.92539 225.084011,367.623631 C240.9816,367.623631 250.069047,367.623631 275.054083,367.623631 Z" id="rock" fill="#574454"></path>
+                        <g id="Group" transform="translate(92.364421, 0.000000)">
+                            <g id="rampe" transform="translate(0.342244, 88.018830)" stroke="#443642" stroke-width="2.87299977" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M0.810148349,17.091959 L0.810148349,0.708003507" id="Path-2"></path>
+                                <path d="M0.810148349,4.08646149 L84.6717936,4.08646151" id="Path-2"></path>
+                                <path d="M29.1653406,17.091959 L29.1653406,0.708003507" id="Path-2"></path>
+                                <path d="M56.7103845,17.091959 L56.7103845,0.708003507" id="Path-2"></path>
+                                <path d="M85.0655767,17.091959 L85.0655767,0.708003507" id="Path-2"></path>
+                            </g>
+                            <g id="corniche">
+                                <use fill="#FF684A" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            </g>
+                            <g id="corniche">
+                                <use fill="#E35D42" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            </g>
+                            <g id="bonnet">
+                                <use fill="#443642" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                            </g>
+                        </g>
+                        <g id="platform">
+                            <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                        </g>
+                    </g>
+                    <g id="house" transform="translate(135.568636, 250.895978)">
+                        <polygon id="Rectangle-7" fill="#D02716" points="36.4661247 22.6400211 59.100271 0 81.7344173 22.6400211 81.7344173 67.9200632 36.4661247 67.9200632"></polygon>
+                        <rect id="Rectangle-7" fill="#E85E43" x="0" y="22.6400211" width="38.9810298" height="45.2800421"></rect>
+                        <polygon id="Rectangle-7" fill="#E7E7E7" points="23.8013447 0 59.100271 0 36.4661247 22.6400211 0 22.6400211"></polygon>
+                        <rect id="Rectangle-8" fill="#443642" x="11.3170732" y="32.7022526" width="11.3170732" height="18.8666842" rx="5.65853659"></rect>
+                        <path d="M36.4661247,22.6400211 L59.100271,0 L81.7344173,22.6400211 L81.7344173,67.9200632 L36.4661247,67.9200632 L36.4661247,22.6400211 Z M49.0406504,44.6469397 C49.0406504,38.7447233 53.8246884,33.9600316 59.7289973,33.9600316 C65.6320083,33.9600316 70.4173442,38.7536473 70.4173442,44.6469397 L70.4173442,67.9200632 L49.0406504,67.9200632 L49.0406504,44.6469397 Z" id="Combined-Shape" fill="#D4563D"></path>
+                        <g id="Group-10" transform="translate(49.040650, 33.960032)">
+                            <mask id="mask-15" fill="white">
+                                <use xlink:href="#path-14"></use>
+                            </mask>
+                            <use id="Rectangle-8" fill="#443642" xlink:href="#path-14"></use>
+                            <polygon id="Rectangle-10" fill="#4D3C4A" mask="url(#mask-15)" points="-1.25745257 21.3822421 22.6341463 35.2178105 -1.25745257 35.2178105"></polygon>
+                        </g>
+                    </g>
+                    <rect id="platform" fill="#4D3C4A" x="86.0318652" y="317.371008" width="101.224932" height="2.5155579" rx="1.25777895"></rect>
+                    <rect id="platform" fill="#4D3C4A" x="201.088776" y="316.960295" width="19.4905149" height="2.5155579" rx="1.25777895"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
