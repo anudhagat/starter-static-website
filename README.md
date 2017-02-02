@@ -44,6 +44,9 @@ Compile all Sass files into css and add all the necessary prefixes using postcss
 Using html-webpack-plugin, inject css and js files into html templates and publish the html files in the public folder.
 Using the reshape-loader, process all template files using reshape-layouts and reshape-include.
 
+#### Image files
+Using image-webpack-loader, images are compressed. Using the file-loader the images are copied into the public/images folder. The image files need to be added to the js files with a require statement and then included in the html with an img tag. See the example in main.js and features.html.
+
 ### Production Build
 
 Minify all html, css and js files.
